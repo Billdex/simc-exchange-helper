@@ -1,522 +1,652 @@
 [
   {
     "id": 1,
-    "name": "电力"
+    "name": "电力",
+    "name_en": "Power"
   },
   {
     "id": 2,
-    "name": "水"
+    "name": "水",
+    "name_en": "Water"
   },
   {
     "id": 3,
-    "name": "苹果"
+    "name": "苹果",
+    "name_en": "Apples"
   },
   {
     "id": 4,
-    "name": "橘子"
+    "name": "橘子",
+    "name_en": "Oranges"
   },
   {
     "id": 5,
-    "name": "葡萄"
+    "name": "葡萄",
+    "name_en": "Grapes"
   },
   {
     "id": 6,
-    "name": "谷物"
+    "name": "谷物",
+    "name_en": "Grain"
   },
   {
     "id": 7,
-    "name": "牛排"
+    "name": "牛排",
+    "name_en": "Steak"
   },
   {
     "id": 8,
-    "name": "香肠"
+    "name": "香肠",
+    "name_en": "Sausages"
   },
   {
     "id": 9,
-    "name": "鸡蛋"
+    "name": "鸡蛋",
+    "name_en": "Eggs"
   },
   {
     "id": 10,
-    "name": "原油"
+    "name": "原油",
+    "name_en": "Crude oil"
   },
   {
     "id": 11,
-    "name": "汽油"
+    "name": "汽油",
+    "name_en": "Petrol"
   },
   {
     "id": 12,
-    "name": "柴油"
+    "name": "柴油",
+    "name_en": "Diesel"
   },
   {
     "id": 13,
-    "name": "运输单位"
+    "name": "运输单位",
+    "name_en": "Transport"
   },
   {
     "id": 14,
-    "name": "矿物"
+    "name": "矿物",
+    "name_en": "Minerals"
   },
   {
     "id": 15,
-    "name": "铝土矿"
+    "name": "铝土矿",
+    "name_en": "Bauxite"
   },
   {
     "id": 16,
-    "name": "硅材"
+    "name": "硅材",
+    "name_en": "Silicon"
   },
   {
     "id": 17,
-    "name": "化合物"
+    "name": "化合物",
+    "name_en": "Chemicals"
   },
   {
     "id": 18,
-    "name": "铝材"
+    "name": "铝材",
+    "name_en": "Aluminium"
   },
   {
     "id": 19,
-    "name": "塑料"
+    "name": "塑料",
+    "name_en": "Plastic"
   },
   {
     "id": 20,
-    "name": "处理器"
+    "name": "处理器",
+    "name_en": "Processors"
   },
   {
     "id": 21,
-    "name": "电子元件"
+    "name": "电子元件",
+    "name_en": "Electronic components"
   },
   {
     "id": 22,
-    "name": "电池"
+    "name": "电池",
+    "name_en": "Batteries"
   },
   {
     "id": 23,
-    "name": "显示屏"
+    "name": "显示屏",
+    "name_en": "Displays"
   },
   {
     "id": 24,
-    "name": "智能手机"
+    "name": "智能手机",
+    "name_en": "Smart phones"
   },
   {
     "id": 25,
-    "name": "平板电脑"
+    "name": "平板电脑",
+    "name_en": "Tablets"
   },
   {
     "id": 26,
-    "name": "笔记本电脑"
+    "name": "笔记本电脑",
+    "name_en": "Laptops"
   },
   {
     "id": 27,
-    "name": "显示器"
+    "name": "显示器",
+    "name_en": "Monitors"
   },
   {
     "id": 28,
-    "name": "电视机"
+    "name": "电视机",
+    "name_en": "Televisions"
   },
   {
     "id": 29,
-    "name": "作物研究"
+    "name": "作物研究",
+    "name_en": "Plant research"
   },
   {
     "id": 30,
-    "name": "能源研究"
+    "name": "能源研究",
+    "name_en": "Energy research"
   },
   {
     "id": 31,
-    "name": "采矿研究"
+    "name": "采矿研究",
+    "name_en": "Mining research"
   },
   {
     "id": 32,
-    "name": "电器研究"
+    "name": "电器研究",
+    "name_en": "Electronics research"
   },
   {
     "id": 33,
-    "name": "畜牧研究"
+    "name": "畜牧研究",
+    "name_en": "Breeding research"
   },
   {
     "id": 34,
-    "name": "化学研究"
+    "name": "化学研究",
+    "name_en": "Chemistry research"
   },
   {
     "id": 35,
-    "name": "软件"
+    "name": "软件",
+    "name_en": "Software"
   },
   {
     "id": 40,
-    "name": "棉花"
+    "name": "棉花",
+    "name_en": "Cotton"
   },
   {
     "id": 41,
-    "name": "棉布"
+    "name": "棉布",
+    "name_en": "Fabric"
   },
   {
     "id": 42,
-    "name": "铁矿石"
+    "name": "铁矿石",
+    "name_en": "Iron ore"
   },
   {
     "id": 43,
-    "name": "钢材"
+    "name": "钢材",
+    "name_en": "Steel"
   },
   {
     "id": 44,
-    "name": "沙子"
+    "name": "沙子",
+    "name_en": "Sand"
   },
   {
     "id": 45,
-    "name": "玻璃"
+    "name": "玻璃",
+    "name_en": "Glass"
   },
   {
     "id": 46,
-    "name": "皮革"
+    "name": "皮革",
+    "name_en": "Leather"
   },
   {
     "id": 47,
-    "name": "车载电脑"
+    "name": "车载电脑",
+    "name_en": "On-board computer"
   },
   {
     "id": 48,
-    "name": "电动马达"
+    "name": "电动马达",
+    "name_en": "Electric motor"
   },
   {
     "id": 49,
-    "name": "豪华车内饰"
+    "name": "豪华车内饰",
+    "name_en": "Luxury car interior"
   },
   {
     "id": 50,
-    "name": "基本内饰"
+    "name": "基本内饰",
+    "name_en": "car interior"
   },
   {
     "id": 51,
-    "name": "车身"
+    "name": "车身",
+    "name_en": "Car body"
   },
   {
     "id": 52,
-    "name": "内燃机"
+    "name": "内燃机",
+    "name_en": "Combustion engine"
   },
   {
     "id": 53,
-    "name": "经济电动车"
+    "name": "经济电动车",
+    "name_en": "Economy e-car"
   },
   {
     "id": 54,
-    "name": "豪华电动车"
+    "name": "豪华电动车",
+    "name_en": "Luxury e-car"
   },
   {
     "id": 55,
-    "name": "经济燃油车"
+    "name": "经济燃油车",
+    "name_en": "Economy car"
   },
   {
     "id": 56,
-    "name": "豪华燃油车"
+    "name": "豪华燃油车",
+    "name_en": "Luxury car"
   },
   {
     "id": 57,
-    "name": "卡车"
+    "name": "卡车",
+    "name_en": "Truck"
   },
   {
     "id": 58,
-    "name": "汽车研究"
+    "name": "汽车研究",
+    "name_en": "Automotive research"
   },
   {
     "id": 59,
-    "name": "时装研究"
+    "name": "时装研究",
+    "name_en": "Fashion research"
   },
   {
     "id": 60,
-    "name": "内衣"
+    "name": "内衣",
+    "name_en": "Underwear"
   },
   {
     "id": 61,
-    "name": "手套"
+    "name": "手套",
+    "name_en": "Gloves"
   },
   {
     "id": 62,
-    "name": "裙子"
+    "name": "裙子",
+    "name_en": "Dress"
   },
   {
     "id": 63,
-    "name": "高跟鞋"
+    "name": "高跟鞋",
+    "name_en": "Simmi shoes"
   },
   {
     "id": 64,
-    "name": "手袋"
+    "name": "手袋",
+    "name_en": "Handbags"
   },
   {
     "id": 65,
-    "name": "运动鞋"
+    "name": "运动鞋",
+    "name_en": "Sneakers"
   },
   {
     "id": 66,
-    "name": "种子"
+    "name": "种子",
+    "name_en": "Seeds"
   },
   {
     "id": 68,
-    "name": "金矿石"
+    "name": "金矿石",
+    "name_en": "Gold ore"
   },
   {
     "id": 69,
-    "name": "金条"
+    "name": "金条",
+    "name_en": "Golden bars"
   },
   {
     "id": 70,
-    "name": "名牌手表"
+    "name": "名牌手表",
+    "name_en": "Gold watch"
   },
   {
     "id": 71,
-    "name": "项链"
+    "name": "项链",
+    "name_en": "Necklace"
   },
   {
     "id": 72,
-    "name": "甘蔗"
+    "name": "甘蔗",
+    "name_en": "Sugarcane"
   },
   {
     "id": 73,
-    "name": "乙醇"
+    "name": "乙醇",
+    "name_en": "Ethanol"
   },
   {
     "id": 74,
-    "name": "甲烷"
+    "name": "甲烷",
+    "name_en": "Methane"
   },
   {
     "id": 75,
-    "name": "碳纤维"
+    "name": "碳纤维",
+    "name_en": "Carbon fiber"
   },
   {
     "id": 76,
-    "name": "碳纤复合材"
+    "name": "碳纤复合材",
+    "name_en": "Carbon composite"
   },
   {
     "id": 77,
-    "name": "机身"
+    "name": "机身",
+    "name_en": "Fuselage"
   },
   {
     "id": 78,
-    "name": "机翼"
+    "name": "机翼",
+    "name_en": "Wing"
   },
   {
     "id": 79,
-    "name": "精密电子元件"
+    "name": "精密电子元件",
+    "name_en": "High grade e-components"
   },
   {
     "id": 80,
-    "name": "飞行计算机"
+    "name": "飞行计算机",
+    "name_en": "Flight computer"
   },
   {
     "id": 81,
-    "name": "座舱"
+    "name": "座舱",
+    "name_en": "Cockpit"
   },
   {
     "id": 82,
-    "name": "姿态控制器"
+    "name": "姿态控制器",
+    "name_en": "Attitude control"
   },
   {
     "id": 83,
-    "name": "火箭燃料"
+    "name": "火箭燃料",
+    "name_en": "Rocket fuel"
   },
   {
     "id": 84,
-    "name": "燃料储罐"
+    "name": "燃料储罐",
+    "name_en": "Fuel tank"
   },
   {
     "id": 85,
-    "name": "固体燃料助推器"
+    "name": "固体燃料助推器",
+    "name_en": "Solid Rocket"
   },
   {
     "id": 86,
-    "name": "火箭发动机"
+    "name": "火箭发动机",
+    "name_en": "Rocket engine"
   },
   {
     "id": 87,
-    "name": "隔热板"
+    "name": "隔热板",
+    "name_en": "Heat shield"
   },
   {
     "id": 88,
-    "name": "离子推进器"
+    "name": "离子推进器",
+    "name_en": "Ion drive"
   },
   {
     "id": 89,
-    "name": "喷气发动机"
+    "name": "喷气发动机",
+    "name_en": "Jet engine"
   },
   {
     "id": 98,
-    "name": "无人机"
+    "name": "无人机",
+    "name_en": "Quadcopter"
   },
   {
     "id": 100,
-    "name": "航空航天研究"
+    "name": "航空航天研究",
+    "name_en": "Aero research"
   },
   {
     "id": 101,
-    "name": "钢筋混凝土"
+    "name": "钢筋混凝土",
+    "name_en": "Reinforced concrete"
   },
   {
     "id": 102,
-    "name": "砖块"
+    "name": "砖块",
+    "name_en": "Bricks"
   },
   {
     "id": 103,
-    "name": "水泥"
+    "name": "水泥",
+    "name_en": "Cement"
   },
   {
     "id": 104,
-    "name": "黏土"
+    "name": "黏土",
+    "name_en": "Clay"
   },
   {
     "id": 105,
-    "name": "石灰石"
+    "name": "石灰石",
+    "name_en": "Limestone"
   },
   {
     "id": 106,
-    "name": "木材"
+    "name": "木材",
+    "name_en": "Wood"
   },
   {
     "id": 107,
-    "name": "钢筋"
+    "name": "钢筋",
+    "name_en": "Steel beams"
   },
   {
     "id": 108,
-    "name": "木板"
+    "name": "木板",
+    "name_en": "Planks"
   },
   {
     "id": 109,
-    "name": "窗户"
+    "name": "窗户",
+    "name_en": "Windows"
   },
   {
     "id": 110,
-    "name": "工具"
+    "name": "工具",
+    "name_en": "Tools"
   },
   {
     "id": 111,
-    "name": "建筑预构件"
+    "name": "建筑预构件",
+    "name_en": "Construction units"
   },
   {
     "id": 112,
-    "name": "推土机"
+    "name": "推土机",
+    "name_en": "Bulldozer"
   },
   {
     "id": 113,
-    "name": "材料研究"
+    "name": "材料研究",
+    "name_en": "Materials research"
   },
   {
     "id": 114,
-    "name": "机器人"
+    "name": "机器人",
+    "name_en": "Robots"
   },
   {
     "id": 115,
-    "name": "牛"
+    "name": "牛",
+    "name_en": "Cow"
   },
   {
     "id": 116,
-    "name": "猪"
+    "name": "猪",
+    "name_en": "Pig"
   },
   {
     "id": 117,
-    "name": "牛奶"
+    "name": "牛奶",
+    "name_en": "Milk"
   },
   {
     "id": 118,
-    "name": "咖啡豆"
+    "name": "咖啡豆",
+    "name_en": "Coffee beans"
   },
   {
     "id": 119,
-    "name": "咖啡粉"
+    "name": "咖啡粉",
+    "name_en": "Coffee ground"
   },
   {
     "id": 120,
-    "name": "蔬菜"
+    "name": "蔬菜",
+    "name_en": "Vegetables"
   },
   {
     "id": 121,
-    "name": "面包"
+    "name": "面包",
+    "name_en": "Bread"
   },
   {
     "id": 122,
-    "name": "芝士"
+    "name": "芝士",
+    "name_en": "Cheese"
   },
   {
     "id": 123,
-    "name": "苹果派"
+    "name": "苹果派",
+    "name_en": "Apple pie"
   },
   {
     "id": 124,
-    "name": "橙汁"
+    "name": "橙汁",
+    "name_en": "Orange juice"
   },
   {
     "id": 125,
-    "name": "苹果汁"
+    "name": "苹果汁",
+    "name_en": "Apple cider"
   },
   {
     "id": 126,
-    "name": "姜汁啤酒"
+    "name": "姜汁啤酒",
+    "name_en": "Ginger beer"
   },
   {
     "id": 127,
-    "name": "披萨"
+    "name": "披萨",
+    "name_en": "Pizza"
   },
   {
     "id": 128,
-    "name": "面条"
+    "name": "面条",
+    "name_en": "Pasta"
   },
   {
     "id": 129,
-    "name": "汉堡包"
+    "name": "汉堡包",
+    "name_en": "Hamburger"
   },
   {
     "id": 130,
-    "name": "千层面"
+    "name": "千层面",
+    "name_en": "Lasagna"
   },
   {
     "id": 131,
-    "name": "肉丸"
+    "name": "肉丸",
+    "name_en": "Meatballs"
   },
   {
     "id": 132,
-    "name": "混合果汁"
+    "name": "混合果汁",
+    "name_en": "Cocktails"
   },
   {
     "id": 133,
-    "name": "面粉"
+    "name": "面粉",
+    "name_en": "Flour"
   },
   {
     "id": 134,
-    "name": "黄油"
+    "name": "黄油",
+    "name_en": "Butter"
   },
   {
     "id": 135,
-    "name": "糖"
+    "name": "糖",
+    "name_en": "Sugar"
   },
   {
     "id": 136,
-    "name": "可可"
+    "name": "可可",
+    "name_en": "Cocoa Beans"
   },
   {
     "id": 137,
-    "name": "面团"
+    "name": "面团",
+    "name_en": "Dough"
   },
   {
     "id": 138,
-    "name": "酱汁"
+    "name": "酱汁",
+    "name_en": "Gravy Boat"
   },
   {
     "id": 139,
-    "name": "动物饲料"
+    "name": "动物饲料",
+    "name_en": "Fodder"
   },
   {
     "id": 140,
-    "name": "巧克力"
+    "name": "巧克力",
+    "name_en": "Chocolate"
   },
   {
     "id": 141,
-    "name": "植物油"
+    "name": "植物油",
+    "name_en": "Vegetable oil"
   },
   {
     "id": 142,
-    "name": "沙拉"
+    "name": "沙拉",
+    "name_en": "Salad"
   },
   {
     "id": 143,
-    "name": "咖喱角"
+    "name": "咖喱角",
+    "name_en": "Samosas"
   },
   {
     "id": 145,
-    "name": "食谱"
+    "name": "食谱",
+    "name_en": "Recipes"
   }
 ]
