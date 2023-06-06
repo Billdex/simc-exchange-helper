@@ -1,15 +1,15 @@
-import {MonitorConfigItem} from "@/app/data/monitor-config";
+import {MonitorConfigData} from "@/app/data/monitor-config";
 import {FormEvent, useState} from "react";
 
 type SearchProps = {
-    dataList: MonitorConfigItem[]
-    onSelect: (selected: MonitorConfigItem) => void;
+    dataList: MonitorConfigData[]
+    onSelect: (selected: MonitorConfigData) => void;
 }
 
 export default function Search(props: SearchProps) {
     const [searchText, setSearchText] = useState("")
     const showItems = (searchText !== "") ? props.dataList.filter(item => item.name.indexOf(searchText) != -1) : []
-    const [hoverItem, setHoverItem] = useState<MonitorConfigItem>()
+    const [hoverItem, setHoverItem] = useState<MonitorConfigData>()
     return (
         <>
             <input
