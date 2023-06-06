@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2320dff7-3b15-446d-89d3-6d10b2bc0951" name="更改" comment="实现监控与通知逻辑">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/goods-monitor-config.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/market-monitor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/market.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/simc-exchange-helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simc-exchange-helper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/goods.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/data/monitor-config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/monitor-config.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/market-monitor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/market-monitor.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +40,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "/Users/boohee/Code/billdex/simc-exchange-helper/node_modules/typescript/lib",
+    "ts.external.directory.path": "W:\\billdex\\simc-exchange-helper\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,6 +59,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现监控与通知逻辑" />
