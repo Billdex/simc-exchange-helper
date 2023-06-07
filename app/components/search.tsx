@@ -11,9 +11,9 @@ export default function Search(props: SearchProps) {
     const showItems = (searchText !== "") ? props.dataList.filter(item => item.name.indexOf(searchText) != -1) : []
     const [hoverItem, setHoverItem] = useState<MonitorConfigData>()
     return (
-        <>
+        <div className={""}>
             <input
-                className={"border w-full px-4 py-2"}
+                className={"border rounded-md w-full px-4 py-2"}
                 type={"text"}
                 placeholder={"在这里搜索想要添加的产品..."}
                 value={searchText}
@@ -21,7 +21,7 @@ export default function Search(props: SearchProps) {
                     setSearchText(e.currentTarget.value)
                 }}
             />
-            <ul className="absolute bg-white z-10 w-full border rounded shadow-md divide-y group-hover:block">
+            <ul className="absolute bg-white border rounded shadow-md divide-y group-hover:block">
                 {
                     showItems.map(item => (
                         <li
@@ -51,6 +51,6 @@ export default function Search(props: SearchProps) {
                     ))
                 }
             </ul>
-        </>
+        </div>
     )
 }

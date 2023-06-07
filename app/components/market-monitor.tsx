@@ -21,9 +21,17 @@ export default function MarketMonitor({monitorConfig}: IMarketMonitor) {
             setUpdateTime(new Date())
             return res.json()
         }), {
-            revalidateOnFocus: false,
+            revalidateOnFocus: true,
             refreshWhenHidden: true,
-            refreshInterval:   12*1000,
+            refreshWhenOffline: true,
+            refreshInterval:   10*1000,
+            shouldRetryOnError: true,
+            errorRetryCount: 10,
+            errorRetryInterval: 5*1000,
+            onErrorRetry: (error, key, config, revalidate,{retryCount,}) => {
+                console.log(`fetch ${monitorConfig.name} error: ${error}`)
+                setTimeout(() => revalidate({retryCount: retryCount}), config.errorRetryInterval)
+            }
         });
     // 当符合监控策略条件的时候，发送通知
     const notifyTextList = new Array<string>()
@@ -54,7 +62,7 @@ export default function MarketMonitor({monitorConfig}: IMarketMonitor) {
         <>
             最近市价: {data && (data.length > 0 ? data?.[0].price : 0) || 0}
             <br/>
-            更新时间: {updateTime && (updateTime.toLocaleTimeString('zh-CN', {timeZone: 'GMT'})) || "未开始"}
+            更新时间: {updateTime && (updateTime.toLocaleTimeString('zh-CN')) || "未开始"}
         </>
     )
 }

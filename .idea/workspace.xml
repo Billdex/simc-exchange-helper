@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2320dff7-3b15-446d-89d3-6d10b2bc0951" name="更改" comment="实现监控与通知逻辑">
+    <list default="true" id="2320dff7-3b15-446d-89d3-6d10b2bc0951" name="更改" comment="优化通知信息格式, 降低通知频次">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/goods-monitor-config.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/goods-monitor-config-card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/market-monitor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/market-monitor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/components/goodsMonitor.tsx" root0="SKIP_HIGHLIGHTING" />
@@ -55,6 +59,14 @@
       <workItem from="1686018694434" duration="140000" />
       <workItem from="1686018839803" duration="17149000" />
     </task>
+    <task id="LOCAL-00001" summary="优化通知信息格式, 降低通知频次">
+      <created>1686078495634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686078495634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现监控与通知逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现监控与通知逻辑" />
+    <MESSAGE value="优化通知信息格式, 降低通知频次" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化通知信息格式, 降低通知频次" />
   </component>
 </project>
