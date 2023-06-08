@@ -27,7 +27,7 @@ export default function MarketMonitor({monitorConfig}: IMarketMonitor) {
             refreshInterval:   10*1000,
             shouldRetryOnError: true,
             errorRetryCount: 10,
-            errorRetryInterval: 5*1000,
+            errorRetryInterval: 0,
             onErrorRetry: (error, key, config, revalidate,{retryCount,}) => {
                 console.log(`fetch ${monitorConfig.name} error: ${error}`)
                 setTimeout(() => revalidate({retryCount: retryCount}), config.errorRetryInterval)
@@ -36,17 +36,21 @@ export default function MarketMonitor({monitorConfig}: IMarketMonitor) {
     // 当符合监控策略条件的时候，发送通知
     const notifyTextList = new Array<string>()
     monitorConfig.strategies.forEach((strategy => {
-        let goodsCount = 0
+        let goodsCount: number = 0
+        let minPrice: number = 0
         for (let i = 0; data && i < data.length; i++) {
             if (data[i].price > strategy.price) {
                 break
             }
             if (data[i].quality >= strategy.quality) {
                 goodsCount += data[i].quantity
+                if (minPrice === 0) {
+                    minPrice = data[i].price
+                }
             }
         }
         if (goodsCount > 0 && goodsCount >= strategy.count) {
-            notifyTextList.push(`Q${strategy.quality}+  |  @${data?.[0].price}/${strategy.price}  |  ${goodsCount}u`)
+            notifyTextList.push(`Q${strategy.quality}+  |  @${minPrice}/${strategy.price}  |  ${goodsCount}u`)
         }
     }))
     if (notifyTextList.length > 0 && (new Date().getTime() - updateTime?.getTime()) > 25) {
