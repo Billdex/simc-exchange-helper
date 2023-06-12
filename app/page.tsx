@@ -1,12 +1,13 @@
 'use client';
 
 import {useEffect, useState} from "react";
-import GoodsMonitorConfigCard from "@/app/components/goods-monitor-config-card";
+import MonitorCard from "@/app/components/monitor-card";
 import goodsMetadataList from "./data/goods.json"
 import type {MonitorConfigData} from "@/app/data/monitor-config";
 import Search from "@/app/components/search";
 import {nanoid} from "nanoid";
-import MarketMonitor from "@/app/components/market-monitor";
+import {Simulate} from "react-dom/test-utils";
+import change = Simulate.change;
 
 export default function Home() {
     const [defaultMonitorConfigList,] = useState<MonitorConfigData[]>(() => goodsMetadataList.map<MonitorConfigData>(item => {
@@ -38,8 +39,8 @@ export default function Home() {
 
 
     return (
-        <div className={"w-10/12 mx-auto py-5"}>
-            <div>
+        <div className={"mx-auto py-5 w-11/12 max-w-2xl"}>
+            <div className={"w-96"}>
                 <button
                     className={onMonitor ? "border rounded-md w-28 h-10 mx-2 bg-green-500 text-white hover:bg-red-500" : "border rounded-md w-28 h-10 mx-2 hover:bg-green-500 hover:text-white"}
                     onClick={(e) => {
@@ -58,7 +59,7 @@ export default function Home() {
                 >通知测试
                 </button>
             </div>
-            <div className={"my-5"}>
+            <div className={"mx-auto my-5 max-w-2xl"}>
                 <Search
                     dataList={canSelectItems}
                     onSelect={(item: MonitorConfigData) => {
@@ -68,35 +69,25 @@ export default function Home() {
                     }}
                 />
             </div>
-            <ul className={"mx-auto"}>
+            <ul className={"mx-auto max-w-2xl"}>
                 {
                     monitorConfigList.map(item => {
                         return (
-                            <li className={"flex my-2 py-2"} key={item.id}>
-                                <div className={"w-9/12"}>
-                                    <GoodsMonitorConfigCard
-                                        monitorConfig={item}
-                                        onChange={(changedValue) => {
-                                            const newMonitorConfig = monitorConfigList.map(configItem => configItem.id === item.id ? changedValue : configItem)
-                                            localStorage.setItem("monitor-config", JSON.stringify(newMonitorConfig))
-                                            setMonitorConfigList(newMonitorConfig)
-                                        }}
-                                    />
-                                </div>
-                                <div className={"mx-6 w-2/12"}>
-                                    {onMonitor && <MarketMonitor monitorConfig={item}/>}
-                                </div>
-                                <div className={"w-1/12"}>
-                                    <button
-                                        className={"border px-4 py-2"}
-                                        onClick={(e) => {
-                                            const newMonitorConfig = monitorConfigList.filter(configItem => configItem.id !== item.id)
-                                            localStorage.setItem("monitor-config", JSON.stringify(newMonitorConfig))
-                                            setMonitorConfigList(newMonitorConfig)
-                                        }}
-                                    >删除
-                                    </button>
-                                </div>
+                            <li className={"my-2 py-2 transition-all"} key={item.id}>
+                                <MonitorCard
+                                    monitorConfig={item}
+                                    isMonitor={onMonitor}
+                                    onChange={(changedValue) => {
+                                        const newMonitorConfig = monitorConfigList.map(configItem => configItem.id === item.id ? changedValue : configItem)
+                                        localStorage.setItem("monitor-config", JSON.stringify(newMonitorConfig))
+                                        setMonitorConfigList(newMonitorConfig)
+                                    }}
+                                    onRemove={() => {
+                                        const newMonitorConfig = monitorConfigList.filter(configItem => configItem.id !== item.id)
+                                        localStorage.setItem("monitor-config", JSON.stringify(newMonitorConfig))
+                                        setMonitorConfigList(newMonitorConfig)
+                                    }}
+                                />
                             </li>
                         )
                     })
