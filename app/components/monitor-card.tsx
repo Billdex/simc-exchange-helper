@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import {MonitorConfigData, MonitorStrategy} from "@/app/data/monitor-config";
 import React, {useState} from "react";
@@ -19,8 +21,11 @@ export default function MonitorCard({monitorConfig, isMonitor, onChange, onRemov
             <div className={"flex justify-start items-center rounded-t-lg h-12 px-4 bg-blue-50"}>
                 <div className={"w-1/2"}>
                     <Image
+                        loader={({src}) => {
+                            return `https://d1fxy698ilbz6u.cloudfront.net/static/images/resources/${src}`
+                        }}
                         className={"mx-auto inline-block"}
-                        src={`https://d1fxy698ilbz6u.cloudfront.net/static/images/resources/${monitorConfig.name_en.replaceAll(" ", "-").toLowerCase()}.png`}
+                        src={`${monitorConfig.name_en.replaceAll(" ", "-").toLowerCase()}.png`}
                         alt={monitorConfig.name_en}
                         width={40}
                         height={40}

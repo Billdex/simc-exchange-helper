@@ -1,3 +1,5 @@
+'use_client'
+
 import {MonitorConfigData} from "@/app/data/monitor-config";
 import {FormEvent, useState} from "react";
 

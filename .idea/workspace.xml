@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2320dff7-3b15-446d-89d3-6d10b2bc0951" name="更改" comment="优化价格提示信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/goods-monitor-config-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/monitor-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/market-monitor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/monitor-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/monitor-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +43,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "ts.external.directory.path": "W:\\billdex\\simc-exchange-helper\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/Users/boohee/Code/billdex/simc-exchange-helper/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
