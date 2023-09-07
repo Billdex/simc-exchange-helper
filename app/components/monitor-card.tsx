@@ -143,8 +143,8 @@ function PriceSpan({monitorConfig}: IPriceSpan) {
         isLoading
     } = useSWR<GoodsExchangeItem[]>(`https://www.simcompanies.com/api/v3/market/0/${monitorConfig.id}/`,
         (url) => fetch(url, {
-            referrer: "",
-            referrerPolicy: "no-referrer",
+            // referrer: "",
+            // referrerPolicy: "no-referrer",
         }).then((res) => {
             setUpdateTime(new Date())
             return res.json()
@@ -178,7 +178,7 @@ function PriceSpan({monitorConfig}: IPriceSpan) {
             }
         }
         if (goodsCount > 0 && goodsCount >= strategy.count) {
-            notifyTextList.push(`Q${strategy.quality}+  |  @${minPrice}/${strategy.price}  |  ${goodsCount}u`)
+            notifyTextList.push(`Q${strategy.quality}+  |  @${minPrice}/${strategy.price}  |  ${goodsCount.toLocaleString()}u`)
         }
     }))
     if (notifyTextList.length > 0 && (new Date().getTime() - lastNotifyTime?.getTime()) > 25*1000) {

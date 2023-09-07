@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: '/simc-exchange-helper',
+    // basePath: '/simc-exchange-helper',
     images: {
         loader: 'custom',
         domains: [
